@@ -34,7 +34,7 @@ const Card = () => {
   }
 }
   return (
-       <div className=" absolute top-[125px]  flex flex-wrap justify-center gap-4    ">
+       <div className=" absolute top-[125px]    flex flex-wrap justify-center items-center  sm:gap-4 px-4    ">
            {
             currentPage.map((item,ind)=>(<CardDetail key={ind} data={item} />))
            }
